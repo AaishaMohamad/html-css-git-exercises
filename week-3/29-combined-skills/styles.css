@@ -8,3 +8,18 @@
     max-width: 16em;
   }
 }
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-nav__list {
+    display: flex;
+    width: 290px;
+  }
+}
