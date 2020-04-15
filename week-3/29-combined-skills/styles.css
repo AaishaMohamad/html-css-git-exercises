@@ -22,4 +22,14 @@
     display: flex;
     width: 290px;
   }
+  .views {
+    display: flex;
+    align-items: baseline;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+  .view-list__item {
+    padding-left: 16px;
+  }
 }
