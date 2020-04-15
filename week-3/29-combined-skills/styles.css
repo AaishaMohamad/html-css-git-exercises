@@ -36,3 +36,12 @@
 .checkbox {
   margin-top: 10px;
 }
+
+.main-article {
+  display: flex;
+  max-width: 50em;
+  line-height: 1.5em;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
